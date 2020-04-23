@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <class name="Department1" table="td_dept1">
+        <id name="deptId" column="dept_id" type="java.lang.Integer">
+            <generator class="foreign">
+                <!--
+             property属性:指定当前持久化类的哪一个属性作为主键
+         -->
+                <param name="property">manager</param>
+            </generator>
+
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <!--基于外键映射-->
+        <!--使用one-to-one来映射1-1关联关系
+             使用foreign主键生成器策略的一端增加one-to-one元素映射关联策略
+             其one-to-one节点还应增加constrained="true"属性,以使当前的主键添加上
+             外键约束
+         -->
+        <one-to-one name="manager" class="Manager1" constrained="true"/>
+    </class>
+</hibernate-mapping>

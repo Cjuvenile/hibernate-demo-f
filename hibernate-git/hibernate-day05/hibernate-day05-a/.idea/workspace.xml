@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d00c6eb-dd72-488e-8938-06f33ebde25b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Xqs6gpHnJdwWnEW3nQwAGnP7Fw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jar包/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\hibernate\hibernate-day05-a" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test1.testGet">
+    <configuration name="Test1.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-day05-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.Test1" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-day05-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.Test1" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-day05-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.Test" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-day05-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.Test" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test1.testGet" />
+        <item itemvalue="JUnit.Test1.testSave" />
+        <item itemvalue="JUnit.Test.testGet" />
+        <item itemvalue="JUnit.Test.testSave" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d00c6eb-dd72-488e-8938-06f33ebde25b" name="Default Changelist" comment="" />
+      <created>1581784785734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581784785734</updated>
+      <workItem from="1581784786795" duration="384000" />
+      <workItem from="1581785177518" duration="1593000" />
+      <workItem from="1581789645713" duration="62000" />
+      <workItem from="1581790053157" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Java" timestamp="1581785110958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Java/0.0.1920.1040@0.0.1920.1040" timestamp="1581785110958" />
+    <state x="552" y="182" key="#Project_Structure" timestamp="1581785278184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581785278184" />
+    <state x="939" y="263" key="FileChooserDialogImpl" timestamp="1581790078611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="939" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581790078611" />
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom" timestamp="1581790100377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581790100377" />
+    <state width="1877" height="355" key="GridCell.Tab.0.center" timestamp="1581790100376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581790100376" />
+    <state width="1877" height="355" key="GridCell.Tab.0.left" timestamp="1581790100376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581790100376" />
+    <state width="1877" height="355" key="GridCell.Tab.0.right" timestamp="1581790100377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581790100377" />
+    <state x="440" y="98" key="SettingsEditor" timestamp="1581790083353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581790083353" />
+    <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581785675939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1581785675939" />
+    <state x="580" y="109" width="759" height="822" key="find.popup" timestamp="1581785687350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="109" width="759" height="822" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581785687350" />
+  </component>
+</project>

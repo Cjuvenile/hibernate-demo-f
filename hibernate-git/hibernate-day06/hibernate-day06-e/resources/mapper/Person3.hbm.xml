@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <class name="Person3" table="tb_person3">
+        <id name="id" column="id" type="java.lang.Integer" >
+            <!--使用外键的方式生成主键-->
+            <generator class="hilo"/>
+        </id>
+        <!--配置辨别者列-->
+        <property name="name" column="name" type="java.lang.String"/>
+        <property name="age" column="age" type="java.lang.Integer"/>
+
+        <!--
+            映射子类Student
+        -->
+        <union-subclass name="Student3" table="tb_student3">
+            <property name="school" column="school" type="java.lang.String"/>
+        </union-subclass>
+
+
+    </class>
+</hibernate-mapping>

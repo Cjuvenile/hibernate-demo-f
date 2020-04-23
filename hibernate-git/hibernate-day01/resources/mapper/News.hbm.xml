@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cn.kgc.entity.News" table="news">
+         <!--标识主键-->
+        <id name="id" type="java.lang.Integer">
+            <!--数据库主键策略-->
+            <generator class="native"/>
+        </id>
+        <!--建立其他普通属性与数据库表的映射-->
+        <property name="title" type="java.lang.String"/>
+        <property name="author" type="java.lang.String"/>
+        <property name="createDate" type="java.util.Date"/>
+        <property name="score" type="java.lang.Double"/>
+    </class>
+</hibernate-mapping>

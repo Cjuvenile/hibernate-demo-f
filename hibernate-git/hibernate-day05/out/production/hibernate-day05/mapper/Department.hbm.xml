@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <class name="Department" table="td_dept">
+        <id name="deptId" column="dept_id" type="java.lang.Integer">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <!--基于外键映射-->
+        <!--映射多对一
+            unique="true":对外键的唯一约束,让关联的外键永不重复
+        -->
+        <many-to-one name="manager" column="maneger_id" class="Manager" unique="true"/>
+    </class>
+</hibernate-mapping>

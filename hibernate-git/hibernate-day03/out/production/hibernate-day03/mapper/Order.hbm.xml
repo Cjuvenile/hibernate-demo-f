@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <!--建立类与表的映射-->
+    <class name="Order" table="tb_order">
+        <!--建立类中属性与表中主键映射-->
+        <id name="orderId" column="order_id" type="java.lang.Integer">
+          <!--代理主键策略-->
+            <generator class="native"/>
+        </id>
+        <!--建立普通属性映射-->
+        <property name="name" column="name" type="java.lang.String"></property>
+        <!--映射多对一
+         1.name属性:对应的order实体中包含的customer对象名
+         2.column:对应的order表中外键的名字(字段)
+         3.class:对应customer全类名
+     -->
+        <many-to-one name="customer" column="customer_id" class="Customer"/>
+    </class>
+
+</hibernate-mapping>

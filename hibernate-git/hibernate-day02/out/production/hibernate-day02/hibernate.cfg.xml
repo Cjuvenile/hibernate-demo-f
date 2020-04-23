@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--配置文件（数据源）-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!--///表示默认为localhost数据库-->
+        <property name="connection.url">jdbc:mysql:///hibernate-student</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+
+        <!--配置出c3p0数据源-->
+        <!--数据库连接池的最大连接数-->
+        <property name="hibernate.c3p0.max_size">10</property>
+        <!--数据库连接池的最小连接数-->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <!--当数据库连接池中的连接耗尽时, 同一时刻获取多少个数据库连接-->
+        <property name="hibernate.c3p0.acquire_increment">2</property>
+        <!--表示连接池检测线程多长时间检测一次池内的所有链接对象是否超时.
+        连接池本身不会把自己从连接池中移除，而是专门有一个线程按照一定的时间间隔来做这件事，
+        这个线程通过比较连接对象最后一次被使用时间和当前时间的时间差来和 timeout
+        做对比，进而决定是否销毁这个连接对象-->
+        <property name="c3p0.idle_test_period">2000</property>
+        <!--数据库连接池中连接对象在多长时间没有使用过后，就应该被销毁-->
+        <property name="hibernate.c3p0.timeout">5000</property>
+        <!--缓存 Statement 对象的数量-->
+        <property name="hibernate.c3p0.max_statements">10</property>
+
+        <!--hibernate的设置-->
+        <!--设置jdbc的Statement,读取数据库的时候每次从数据库中取出的记录条数-->
+        <property name="hibernate.jdbc.fetch_size">100</property>
+        <!--设定对数据库进行批量删除，批量更新和批量插入的时候的批次大小-->
+        <property name="hibernate.jdbc.batch_size">30</property>
+        <!--hibernate的方言-->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!--执行操作时是否打印sql-->
+        <property name="show_sql">true</property>
+        <!--是否美化sql-->
+        <property name="format_sql">true</property>
+        <!--建表的生成策略-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!--删除对象后,使其OID为null-->
+        <property name="hibernate.use_identifier_rollback">true</property>
+        <!--指定关联的.hbm.xml文件-->
+        <mapping resource="mapper/News.hbm.xml"/>
+        <mapping resource="mapper/Worker.hbm.xml"/>
+
+
+    </session-factory>
+</hibernate-configuration>

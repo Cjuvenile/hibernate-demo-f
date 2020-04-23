@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <class name="Manager" table="tb_manager">
+        <id name="managerId" column="manager_id">
+            <generator class="native"/>
+        </id>
+        <property name="name" type="java.lang.String"/>
+        <!--映射一对一
+        property-ref="manager":引用
+    -->
+        <one-to-one name="department" class="Department" property-ref="manager"/>
+    </class>
+</hibernate-mapping>

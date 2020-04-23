@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bf83a95-2f4d-4f24-9580-a48336663094" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XquTY6V0gX1shFeXvEdcboRrnc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\hibernate\hibernate-day05-1\src" />
+      <recent name="D:\idea\hibernate\hibernate-day05-1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-day05-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kgc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kgc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.kgc.test.Test" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test.testGet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bf83a95-2f4d-4f24-9580-a48336663094" name="Default Changelist" comment="" />
+      <created>1581785953147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581785953147</updated>
+      <workItem from="1581785956629" duration="103000" />
+      <workItem from="1581786260482" duration="511000" />
+      <workItem from="1581789640908" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="264" key="FileChooserDialogImpl" timestamp="1581786003733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="367" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581786003733" />
+    <state width="1158" height="224" key="GridCell.Tab.0.bottom" timestamp="1581786059463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1158" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581786059463" />
+    <state width="1158" height="224" key="GridCell.Tab.0.center" timestamp="1581786059460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1158" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581786059460" />
+    <state width="1158" height="224" key="GridCell.Tab.0.left" timestamp="1581786059460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1158" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581786059460" />
+    <state width="1158" height="224" key="GridCell.Tab.0.right" timestamp="1581786059461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1158" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581786059461" />
+    <state x="173" y="98" key="SettingsEditor" timestamp="1581786675635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="173" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581786675635" />
+    <state x="632" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1581789649598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581789649598" />
+  </component>
+</project>

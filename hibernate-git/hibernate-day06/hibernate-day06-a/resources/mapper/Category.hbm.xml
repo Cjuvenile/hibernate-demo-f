@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.kgc.entity">
+    <class name="Category" table="tb_category">
+        <id name="id" column="id" type="java.lang.Integer">
+            <!--使用外键的方式生成主键-->
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name" type="java.lang.String"/>
+        <!--
+          table:指定中间表
+          inverse控制反转true表示关联关系由被动方维护，false表示由主动方维护
+      -->
+        <set name="items" table="category_item" inverse="true">
+            <key>
+                <column name="c_id"/>
+            </key>
+            <!--
+               使用many-to-many指定多对多的关联关系,
+               column:执行set集合中持久化类在中间表的外键列的名称
+           -->
+            <many-to-many class="Item" column="i_id"/>
+        </set>
+    </class>
+</hibernate-mapping>
